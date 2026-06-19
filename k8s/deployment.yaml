@@ -17,7 +17,7 @@ spec:
   spec:
     containers:
     - name: app-container
-      image: placeholders.dkr.ecr.placeholders.amazonaws.com/placeholder:latest
+      image: 383313559988.dkr.ecr.us-east-1.amazonaws.com/payment-service:7abd2d0c58be273bc084b933a8bf92bfde7dba9d
       ports:
       - containerPort: 3000
 ---
